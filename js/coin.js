@@ -1068,7 +1068,7 @@
 						type: "GET",
 						cache: false,
 						async: false,
-						url: "http://blockdozer.com/insight-api/addr/"+utxo_address+"/utxo",
+						url: "https://blockdozer.com/insight-api/addr/"+utxo_address+"/utxo",
 						dataType: "json",
 						error: function(data) {
 							alert('Couldn\'t get values for inputs. Bitcoin Cash will not sign correctly.');
